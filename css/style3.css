@@ -1,0 +1,102 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Navigation styles */
+  .nav-layout5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .nav-layout5-links {
+    display: flex;
+  }
+  
+  .nav-layout5-links p {
+    margin-right: 20px;
+  }
+  
+  /* Showcase 6 styles */
+  .showcase-6 {
+    height: 300px; /* Adjust height as needed */
+  }
+  
+  .dark-6 {
+    background-color: #333; /* Placeholder color */
+    height: 100%;
+  }
+  
+  /* About section 6 styles */
+  .about-sec-6 {
+    padding: 20px;
+  }
+  
+  .flex-p {
+    display: flex;
+    flex-wrap: wrap; /* Wrap paragraphs when necessary */
+  }
+  
+  .flex-p p {
+    flex: 1 1 50%; /* Two paragraphs per row */
+    margin-bottom: 20px; /* Spacing between paragraphs */
+  }
+  
+  /* Showcase four styles */
+  .showcase-four {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .showcase-four-img {
+    flex: 0 0 50%;
+    background-color: #ccc; /* Placeholder color */
+    height: 300px; /* Adjust height as needed */
+  }
+  
+  .showcase-content-four {
+    flex: 0 0 50%;
+    padding: 0 20px;
+  }
+  
+  /* Showcase flex container styles */
+  .showcase-flex-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .container-content-one {
+    flex: 0 0 calc(33.33% - 20px); /* Three items per row with spacing */
+    background-color: #ccc; /* Placeholder color */
+    height: 200px; /* Adjust height as needed */
+    margin-right: 20px; /* Adjust spacing between items */
+  }
+  
+  .container-content-one:last-child {
+    margin-right: 0; /* Remove margin from the last item */
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333; /* Placeholder color */
+  }
+  
+  .footer-6 {
+    padding: 20px;
+  }
+  
+  .footer-dark {
+    background-color: #333; /* Placeholder color */
+    height: 100px; /* Adjust height as needed */
+  }
+  

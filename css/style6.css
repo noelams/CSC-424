@@ -1,0 +1,64 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Navigation menu styles */
+  .nav-menu-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333; /* Placeholder color */
+    color: white;
+    padding: 20px;
+  }
+  
+  .nav-menu-three p {
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  /* Showcase image styles */
+  .showcase-image-three {
+    height: 300px; /* Adjust height as needed */
+  }
+  
+  .dark-three {
+    background-color: #333; /* Placeholder color */
+    height: 100%;
+  }
+  
+  /* About section styles */
+  .about-section-three {
+    padding: 20px;
+  }
+  
+  .about-section-three h1 {
+    margin-bottom: 10px;
+  }
+  
+  /* Section flex container styles */
+  .section-flex-three {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .section-box-flex-out {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .box-1 {
+    background-color: #ccc; /* Placeholder color */
+    height: 100px; /* Adjust height as needed */
+    margin-bottom: 10px;
+  }
+  
